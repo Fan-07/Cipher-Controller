@@ -1,3 +1,5 @@
+--keyless
+--try to integrate this yourself
 local Base32 = {}
 local CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"
 
