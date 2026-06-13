@@ -1,4 +1,3 @@
--- ModuleScript: Caesar Cipher
 local Caesar = {}
 
 local function isValidShift(key)
