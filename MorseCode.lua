@@ -1,4 +1,3 @@
--- ModuleScript: Morse Code (keyless)
 local MorseCode = {}
 
 local morseTable = {
