@@ -1,4 +1,4 @@
--- note: in DRYAD, key is always 9 characters
+-- note: in DRYAD, key is always 10 characters
 local DRYAD = {}
 
 local function isValidKey(key)
