@@ -12,6 +12,7 @@ local Ciphers = {
 	-- Keyless Ciphers
 	Base85              = require(CipherModules:WaitForChild("Base85")),
 	MorseCode           = require(CipherModules:WaitForChild("MorseCode")),
+	-- add your keyless cipher here in the same format with name
 	-- Keyed
 	Caesar              = require(CipherModules:WaitForChild("Caesar")),
 	BeaufortAutokey     = require(CipherModules:WaitForChild("BeaufortAutokey")),
@@ -20,6 +21,7 @@ local Ciphers = {
 	Morbit              = require(CipherModules:WaitForChild("Morbit")),
 	Vigenere            = require(CipherModules:WaitForChild("Vigenere")),
 	VigenereAutokey     = require(CipherModules:WaitForChild("VigenereAutokey")),
+		-- add your keyed cipher here in the same format with name
 }
 
 -- ScreenGuis
@@ -38,9 +40,11 @@ local C2Main          = Cipher2GUI:WaitForChild("MainFrame") -- Frame who parent
 local EncryptFrame2   = C2Main:WaitForChild("EncryptFrame") -- the frame u are taken to containing the Input and Output boxes for keyless Ciphers for encryption for keyed Ciphers
 local DecryptFrame2   = C2Main:WaitForChild("DecryptFrame") -- " "  for decryption for keyed ciphers
 
+
 -- AllGUI Buttons (keyless)
 local Base85Button    = AllFrame:WaitForChild("Base85Button")
 local MorseButton     = AllFrame:WaitForChild("MorseButton")
+	-- add your keyless cipher here in the same format with name
 
 -- AllGUI Buttons (keyed)
 local CaesarButton              = AllFrame:WaitForChild("CaesarButton")
@@ -50,6 +54,7 @@ local DRYADButton               = AllFrame:WaitForChild("DRYADButton")
 local MorbitButton              = AllFrame:WaitForChild("MorbitButton")
 local VigenereButton            = AllFrame:WaitForChild("VigenereButton")
 local VigenereAutokeyButton     = AllFrame:WaitForChild("VigenereAutokeyButton")
+	-- add your keyed cipher here in the same format with name
 
 -- ModeGUI Buttons
 local EncryptButton = ModeFrame:WaitForChild("EncryptButton")
@@ -87,6 +92,7 @@ local keyedCiphers = {
 	Morbit                = true,
 	Vigenere              = true,
 	VigenereAutokey       = true,
+	--add keyed cipher list here in the same format
 }
 
 -- Button map for highlight
@@ -100,6 +106,7 @@ local CipherButtons = {
 	Morbit                = MorbitButton,
 	Vigenere              = VigenereButton,
 	VigenereAutokey       = VigenereAutokeyButton,
+	--every cipher list here in the same format
 }
 
 -- State
