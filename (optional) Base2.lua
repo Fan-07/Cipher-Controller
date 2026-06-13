@@ -1,3 +1,5 @@
+--keyless
+--try to integrate this yourself
 local Base2 = {}
 
 function Base2.Encrypt(text)
