@@ -1,4 +1,3 @@
--- ModuleScript: Vigenere Cipher
 local Vigenere = {}
 
 local function isValidKey(key)
