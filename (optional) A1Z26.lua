@@ -1,3 +1,5 @@
+--keyless
+--try yo integrate this yourself
 local A1Z26 = {}
 
 function A1Z26.Encrypt(text)
