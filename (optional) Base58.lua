@@ -1,3 +1,5 @@
+--keyless
+--try to integrate this yourself
 local Base58 = {}
 local CHARS = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
 
