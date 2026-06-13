@@ -1,4 +1,3 @@
--- ModuleScript: Beaufort Autokey Cipher
 local BeaufortAutokey = {}
 
 local function isValidKey(key)
