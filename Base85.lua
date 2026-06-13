@@ -1,4 +1,4 @@
--- ModuleScript: Base85
+
 local Base85 = {}
 
 local chars = {}
