@@ -1,6 +1,4 @@
--- ModuleScript: DRYAD Cipher
--- DRYAD is a military number-to-letter cipher using a 10-column key word/phrase
--- Key must be exactly 10 unique letters representing digits 0-9
+-- note: in DRYAD, key is always 9 characters
 local DRYAD = {}
 
 local function isValidKey(key)
