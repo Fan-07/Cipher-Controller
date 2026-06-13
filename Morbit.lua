@@ -1,6 +1,5 @@
--- ModuleScript: Morbit Cipher
--- Key must be exactly 9 unique characters (no repeats)
--- Maps morse code pairs (.., .-, .-,  -., --, to key characters)
+-- key must be exactly 9 unique characters (no repeats)
+-- maps morse code pairs (.., .-, .-,  -., --, to key characters)
 local Morbit = {}
 
 local morseTable = {
@@ -18,8 +17,6 @@ for k, v in pairs(morseTable) do
 	reverseMorse[v] = k
 end
 
--- Morbit pairs: index 1-9 maps to dot-dot, dot-dash, dot-x, dash-dot, dash-dash, dash-x, x-dot, x-dash, x-x
--- x = letter separator
 local PAIRS = {"..", ".-", ".X", "-.", "--", "-X", "X.", "X-", "XX"}
 
 local function isValidKey(key)
