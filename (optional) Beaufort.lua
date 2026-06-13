@@ -1,3 +1,5 @@
+--keyed
+--try to integrate this yourself
 local Beaufort = {}
 
 local function isValidKey(key)
