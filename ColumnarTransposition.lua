@@ -1,4 +1,3 @@
--- ModuleScript: Columnar Transposition Cipher
 local Columnar = {}
 
 local function isValidKey(key)
