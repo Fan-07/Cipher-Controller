@@ -1,3 +1,5 @@
+--keyless
+--try to integrate this yourself
 local Base64 = {}
 local CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 
