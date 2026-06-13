@@ -5,6 +5,7 @@
 || important ||
 1. Refer to the main Cipher Controller Code for your UI names, must be named exactly those. if you want to change that, you have to change in the code too.
 
+2. the cipher scripts must be named in the given order, and be placed as modulescripts in ReplicatedStorage - <img width="206" height="212" alt="image" src="https://github.com/user-attachments/assets/527ae5ad-f370-4713-a33d-fa493594e89e" />
 
 # \\ Hierarchy \\
 
