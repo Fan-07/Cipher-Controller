@@ -1,3 +1,5 @@
+--keyless
+--try to integrate this yourself
 local Base5 = {}
 
 function Base5.Encrypt(text)
