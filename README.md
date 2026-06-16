@@ -22,3 +22,4 @@ must have the KeyBox and BackButoon too. Outlines arent necessary. same for Encr
 
 names should be the exact same - you can have your own attributes
 refer to the code comments for missing/ additional info
+if a GUI needs to be enabled/disabled after any other GUI turns on/off, tweak the code yourself
